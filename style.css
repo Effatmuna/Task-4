@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 30px 0px;
+    background-color: rgba(236, 243, 255, 1);
+
+
+}
+
+.header .logo {
+    display: flex;
+}
+
+.header .logo img {
+    margin: 0 3px;
+}
+
+.header-menu {
+    display: flex;
+
+
+
+
+}
+
+.header-menu-list ul {
+    display: flex;
+    list-style-type: none;
+
+
+
+}
+
+.header-menu-list ul li a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: rgba(5, 6, 10, 1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+
+/*Prepared*/
+.prepared-section {
+
+    background-color: rgba(236, 243, 255, 1);
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+}
+
+.prepared-section .prepared-texts {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+
+}
+
+.prepared-section h1 {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0.01em;
+
+
+
+
+}
+
+.prepared-section .prepared-button a {
+
+
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.prepared-section .prepared-button :nth-child(1) {
+    background: rgba(62, 130, 252, 1);
+
+}
+
+.prepared-section .prepared-button :nth-child(2) {
+
+    border: .5px rgba(62, 130, 252, 1) solid;
+    color: rgba(62, 130, 252, 1);
+
+}
+
+.prepared-section .prepared-img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 900px 20px 700px 800px;
+    position: absolute;
+    right: 230px;
+    bottom: 50px;
+
+
+}
+
+
+/*advantages*/
+.advantages-section {
+
+    /*background-image: repeating-linear-gradient(rgba(236, 243, 255, 1),rgba(251, 254, 255, 1),rgba(251, 254, 255, 1),rgba(236, 243, 255, 1));*/
+    background-image: linear-gradient(white, rgba(236, 243, 255, 1));
+    padding: 100px;
+
+}
+
+.advantages-section .advantages-texts {
+    width: 30%;
+}
+
+.advantages-section .advantages-cards {
+    display: flex;
+    background-color: rgb(255, 255, 255, 1);
+    line-height: 30px;
+    box-shadow: 2px 2px 5px .2px gray;
+    font-family: Poppins;
+
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.advantages-section .advantages-cards .single-card {
+
+    box-sizing: border-box;
+    padding: 50px;
+    text-align: justify;
+
+
+}
+
+.advantages-section .advantages-cards .single-card p {
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+
+}
+
+.advantages-section .advantages-cards .single-card a {
+    color: rgba(254, 44, 84, 1);
+}
+
+.advantages-section .explore {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    color: rgba(93, 97, 111, 1);
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.advantages-section .explore em {
+    color: rgba(254, 44, 84, 1);
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+
+}
+
+.social-icons img {
+    margin: 10px;
+}
+
+
+/*safe*/
+.safe-section {
+
+    background-color: rgba(236, 243, 255, 1);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px 30px 100px;
+
+}
+
+.safe-section .safe-img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 900px 0px 700px 700px;
+    margin: 0 50px;
+
+
+}
+
+.safe-section .safe-texts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+
+
+}
+
+.safe-section h1 {
+    font-family: Poppins;
+    letter-spacing: 0.01em;
+    font-size: 60px;
+
+
+
+
+}
+
+.safe-section .safe-button a {
+
+    background-color: rgba(62, 130, 252, 1);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+/*companies-section*/
+.companies-section {
+
+    text-align: center;
+    padding: 30px 100px;
+    background-color: rgba(251, 254, 255, 1);
+
+}
+
+.companies-section .companies-texts {
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 20px;
+
+}
+
+.companies-section .companies-texts p {
+    color: rgba(62, 130, 252, 1);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: center;
+  
+
+}
+
+.companies-section .companies-texts h1{
+    
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: rgba(5, 6, 10, 1);
+}
+
+.companies-section .companies-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+
+}
+
+.companies-section .companies-numbers .single-companies {
+    margin: 0 60px;
+    line-height: 70px;
+
+}
+
+
+
+/*enjoy*/
+.enjoy-section {
+
+    background-color: rgba(236, 243, 255, 1);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+
+}
+
+.enjoy-section .enjoy-img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 0px 900px 700px 700px;
+    margin: 0 50px;
+
+
+}
+
+.enjoy-section .enjoy-texts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    justify-content: center;
+
+
+}
+
+.enjoy-section h1 {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0.01em;
+
+
+
+
+}
+
+.enjoy-section .enjoy-button a {
+
+    background-color: rgba(62, 130, 252, 1);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+/*nature*/
+.nature-section {
+
+    background-color: rgba(236, 243, 255, 1);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+
+}
+
+.nature-section .nature-img img {
+    width: 400px;
+    height: 400px;
+    border-radius: 900px 0px 700px 700px;
+    margin: 0 50px;
+
+
+}
+
+.nature-section .nature-texts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    justify-content: center;
+
+
+}
+
+.nature-section h1 {
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0.01em;
+
+
+
+
+}
+
+.nature-section .nature-button a {
+
+    background-color: rgba(62, 130, 252, 1);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+/*achievements-section*/
+.testimonial-section {
+    text-align: center;
+    background-color: rgba(251, 254, 255, 1);
+    margin: 30px 0px;
+}
+
+.testimonial-section .testimonial-texts {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Poppins;
+    display: inline-block;
+
+
+}
+
+.testimonial-section .testimonial-texts p {
+    color: rgba(62, 130, 252, 1);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.testimonial-section .testimonial-texts h1 {
+    font-family: Poppins;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+
+}
+
+.testimonial-section .testimonial-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+
+
+}
+
+.testimonial-section .testimonial-numbers .single-testimonial{
+   background-color:rgba(251, 254, 255, 1) ;
+    box-shadow: 2px 2px 5px .2px gray;
+    border-radius: 0px 0px 50px 0px;
+    margin: 0 20px;
+    padding: 50px 30px;
+    line-height: 25px;
+    color: rgba(5, 6, 10, 1);
+    font-family: Poppins;
+
+}
+.testimonial-section .testimonial-numbers .single-testimonial a{
+    text-decoration: none;
+    color: rgba(254, 44, 84, 1);
+}
+.testimonial-section  .sliders-icon{
+    margin-top: 20px;
+}
+/*Subscribe */
+.subscribe-section {
+    text-align: center;
+    background-color: rgba(236, 243, 255, 1);
+    padding: 60px;
+
+}
+
+.subscribe-section .subscribe-texts p {
+    margin-top: 20px;
+}
+
+.subscribe-section .subscribe-texts {
+    margin-bottom: 50px;
+}
+
+.subscribe-section .subscribe-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-section .subscribe-form form a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgba(62, 130, 252, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 40px;
+
+
+}
+.subscribe-section .subscribe-form form span{
+    border: 1px solid rgba(62, 130, 252, 1);
+    display: flex;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 40px;
+    margin: 0 20px;
+}
+.subscribe-section .subscribe-form form input{
+    border: none;
+    background-color: initial;
+    font-size:15px;
+    margin:0 5px;
+    color:rgba(62, 130, 252, 1) ;
+    font-family: Poppins;
+    
+}
+
+/*Footer*/
+.footer-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(236, 243, 255, 1);
+    padding: 40px;
+    color: rgba(5, 6, 10, 1);
+    line-height: 30px;
+
+
+}
+
+.footer-header .footer-logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    color: rgba(93, 97, 111, 1);
+
+}
+
+.footer-icons {
+    margin-top: 30px;
+}
+
+.footer-icons img {
+    width: 30px;
+    margin: 0px 15px 0px 0px;
+    text-align: left;
+}
+
+.footer-texts {
+    display: flex;
+    line-height: 30px;
+
+}
+
+.footer-texts .footer-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    line-height: 25px;
+}
+
+.footer-texts .footer-card li {
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(93, 97, 111, 1);
+
+}
+
+.footer-texts ul {
+    list-style-type: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: lighter;
+
+}
+
+
+.footer-end {
+    background-color: rgba(236, 243, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    color: rgba(93, 97, 111, 1);
+    font-weight: lighter;
+    padding: 10px;
+}
